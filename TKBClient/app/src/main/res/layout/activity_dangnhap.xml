@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangNhapActivity">
+
+    <!-- BACKGROUND START -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg" />
+
+    <!-- BACKGROUND END -->
+
+    <!-- LOGO START -->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/logo" />
+
+    <!-- LOGO END -->
+
+    <!-- USERNAME FIELD START -->
+
+    <LinearLayout
+        android:id="@+id/username_container"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/password_container"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:layout_alignLeft="@+id/password_container">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="22dp"
+            android:src="@drawable/username_label" />
+
+        <EditText
+            android:id="@+id/txtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <!-- USERNAME FIELD END -->
+
+    <!-- PASSWORD FIELD START -->
+
+    <LinearLayout
+        android:id="@+id/password_container"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username_container"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="22dp"
+            android:src="@drawable/password_label" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <!-- PASSWORD FIELD END -->
+
+    <!-- LOGIN BUTTON START -->
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="252dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:background="@drawable/login_button" />
+
+    <!-- LOGIN BUTTON END -->
+
+    <!-- LINE SEPARATOR START -->
+
+    <ImageView
+        android:id="@+id/line_separator"
+        android:layout_width="252dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:src="@drawable/line_separator" />
+
+    <!-- LINE SEPARATOR END -->
+
+    <!-- SOCIAL BUTTONS START -->
+
+        <!-- SOCIAL BUTTONS END -->
+
+</RelativeLayout>

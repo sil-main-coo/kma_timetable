@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--- Nhóm menu trên   -->
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/timetable" android:title="Thời khóa biểu"  android:icon="@drawable/calendar" />
+        <item android:id="@+id/logout" android:title="Đăng xuất" android:icon="@drawable/logout"/>
+
+    </group>
+
+    <!-- Nhóm menu theo tiêu đề -->
+    <item android:id="@+id/line" android:title="">
+        <menu>
+            <item android:id="@+id/feedback" android:title="Góp ý" android:icon="@drawable/feedback"/>
+            <item android:id="@+id/info_app" android:title="Thông tin ứng dụng"  android:icon="@drawable/info" />
+
+        </menu>
+    </item>
+
+
+</menu>

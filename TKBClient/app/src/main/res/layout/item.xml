@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:clickable="true"
+        android:elevation="4dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtThu"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="Thứ 2"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtNgay"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="01/01/2018"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/tbTKB"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:text="Tiết"
+                        android:textColor="@android:color/black"></TextView>
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:text="Môn học"
+                        android:textColor="@android:color/black"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabrow_1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:text="1, 2, 3"
+                        android:textColor="@android:color/black"></TextView>
+
+                    <TextView
+                        android:id="@+id/txt_1_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@android:color/black"></TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabrow_4_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/TextView05"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:text="4, 5, 6"
+                        android:textColor="@android:color/black"></TextView>
+
+                    <TextView
+
+                        android:id="@+id/txt_4_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@android:color/black"></TextView>
+                </TableRow>
+
+
+                <TableRow
+                    android:id="@+id/tabrow_7_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:text="7, 8, 9"
+                        android:textColor="@android:color/black"></TextView>
+
+                    <TextView
+
+                        android:id="@+id/txt_7_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@android:color/black"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabrow_10_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/TextView7"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:text="10, 11, 12"
+                        android:textColor="@android:color/black"></TextView>
+
+                    <TextView
+
+                        android:id="@+id/txt_10_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@android:color/black"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabrow_13_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/TextView8"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:text="13, 14, 15, 16"
+                        android:textColor="@android:color/black"></TextView>
+
+                    <TextView
+
+                        android:id="@+id/txt_13_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="1dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@android:color/black"></TextView>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
